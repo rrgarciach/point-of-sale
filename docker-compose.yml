@@ -1,0 +1,5 @@
+version: '3'
+services:
+  point-of-sale-api:
+    container_name: point-of-sale-api
+    restart: on-failure
